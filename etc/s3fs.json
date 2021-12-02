@@ -1,0 +1,11 @@
+[
+	{
+		"local_folder": "moodledata",
+		"bucket": "pdm2",
+		"cache_folder": "/tmp",
+		"gid": "498",
+		"uid": "498",
+		"default_acl": "public-read",
+		"host": "http://s3-ap-south-1.amazonaws.com"
+	}
+]

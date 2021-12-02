@@ -17,7 +17,7 @@ echo <<<JSONS3
 	{ 
 		// this will mount the s3 bucket "name.of.bucket" to the /my-bucket/ folder in your application.
 		"local_folder": "my-bucket",
-		"bucket": "name.of.bucket",
+		"bucket": "pdm2",
 		"cache_folder": "/tmp",
 		"gid": "501",
 		"uid": "500",

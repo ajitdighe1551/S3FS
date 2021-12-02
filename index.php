@@ -1,8 +1,10 @@
 <?php
 echo "<h1>S3FS on Aws Beanstalk123</h1><hr />";
 
+$AWS_SECRET_KEY = 'AKIA5GT67LSRJTHLTH3C';
+$AWS_ACCESS_KEY_ID = 'AKIA5GT67LSRJTHLTH3C';
 
-if (empty($_SERVER['AWS_SECRET_KEY']) || empty($_SERVER['AWS_ACCESS_KEY_ID'])) {
+if (empty($AWS_SECRET_KEY) || empty($AWS_ACCESS_KEY_ID)) {
 	echo "<p>Error: Your access keys are not in the environment.  See Amazon's documentation on <a href=\"http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP.container.html\">how to add your credentials</a> to your Elastic Beanstalk Container. </p>";
 	//exit();
 }
